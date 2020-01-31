@@ -1,6 +1,7 @@
 # DungeonCrawlDemo
 
-**TODO: Add description**
+DungeonCrawlDemo is a simple CLI game created to explore the ins and out of Elixir and functional programming.
+
 
 ## Installation
 
@@ -18,4 +19,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/dungeon_crawl_demo](https://hexdocs.pm/dungeon_crawl_demo).
-

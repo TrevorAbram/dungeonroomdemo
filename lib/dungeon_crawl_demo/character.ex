@@ -8,4 +8,8 @@ defmodule DungeonCrawlDemo.Character do
 
             # Gives our character attributes for the game!
 
+
+  defimpl String.Chars do
+    def to_string(character), do: character.name
+  end
 end

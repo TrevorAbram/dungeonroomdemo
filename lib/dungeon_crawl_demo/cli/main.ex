@@ -7,6 +7,7 @@ defmodule DungeonCrawlDemo.CLI.Main do
     welcome_message()
     Shell.prompt("Press enter to continue..")
     hero_choice()
+    crawl(DungeonCrawlDemo.Room.all())
   end
 
   defp welcome_message do
@@ -25,6 +26,17 @@ defmodule DungeonCrawlDemo.CLI.Main do
 
   defp hero_choice do
     DungeonCrawlDemo.CLI.HeroChoice.start()
+  end
+
+  defp crawl(rooms) do
+    Shell.info("You need to keep moving forward.")
+    Shell.prompt("Press Enter to continue")
+    Shell.cmd("clear")
+
+
+    rooms
+    |> Enum.random
+    |> DungeonCrawlDemo.CLI.RoomActionsChoice.start 
   end
 
 end
