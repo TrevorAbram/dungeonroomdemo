@@ -1,4 +1,6 @@
-##All notes will be listed here.
+## Any notes will be listed here
+
+[Todo - Organize my notes]
 
 ### Building **Behaviors**
 
@@ -6,4 +8,4 @@ Behaviors are "contracts" between modules and the client code that run them and 
 multiple modules.
 
 - clients can use multiple modules in the same way since modules provide the same fn w/ the same signatures defined in a behavior.
-- `mix.task` is an example of a behavior 
+- `mix.task` is an example of a behavior
